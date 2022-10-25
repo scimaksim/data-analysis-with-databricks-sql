@@ -129,7 +129,7 @@ DROP TABLE IF EXISTS customers_csv;
 CREATE TABLE customers_csv 
     USING csv 
     OPTIONS (
-        path='wasb://courseware@dbacademy.blob.core.windows.net/data-analysis-with-databricks/v02/retail-org/customers/customers.csvcsv',
+        path='wasb://courseware@dbacademy.blob.core.windows.net/data-analysis-with-databricks/v02/retail-org/customers/customers.csv',
         header="true",
         inferSchema="true"
 );
